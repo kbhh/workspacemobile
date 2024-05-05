@@ -1,0 +1,49 @@
+{
+  "name": "blueSpace",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "postinstall": "node ./android-release-gradle-fix.js"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "@react-native-community/toolbar-android": "^0.1.0-rc.2",
+    "axios": "^0.18.0",
+    "dayjs": "^1.7.8",
+    "native-base": "^2.10.0",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4",
+    "react-native-app-intro-slider": "^1.0.1",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^1.0.0",
+    "react-native-global-props": "^1.1.5",
+    "react-native-image-crop-picker": "^0.24.1",
+    "react-native-image-picker": "^0.27.2",
+    "react-native-modal": "^7.0.2",
+    "react-native-modalbox": "^1.7.1",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-splash-screen": "^3.1.1",
+    "react-native-switch-selector": "^1.1.10",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-form": "^8.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.0",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
